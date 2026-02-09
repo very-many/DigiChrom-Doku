@@ -1,0 +1,23 @@
+{
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-mauve",
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker",
+  "Appearance-dark@@accent-dark": "#c4a7e7",
+  "Appearance-dark@@accent-color-override-dark": true,
+  "Appearance-dark@@background-tertiary@@dark": "#26233a",
+  "Appearance-dark@@background-primary@@dark": "#1f1d2e",
+  "Appearance-dark@@background-secondary@@dark": "#191724",
+  "Appearance-dark@@text-normal@@dark": "#e0def4",
+  "Appearance-dark@@text-muted@@dark": "#908caa",
+  "Appearance-dark@@text-faint@@dark": "#6e6a86",
+  "Editor@@codeblock-style-select": "codeblock-style-customize",
+  "Plugin@@colorful-checkbox": false,
+  "Editor@@seamless-embeds": false,
+  "Editor@@inline-title-divider-remove": false,
+  "Editor@@collapse-icon-restore": false,
+  "Editor@@editor-grid-background-pattren": false,
+  "Editor@@heading-indicator-off": false,
+  "Editor@@text-align-justify": false,
+  "Editor@@img-center-align": true
+}

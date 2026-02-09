@@ -1,0 +1,6 @@
+.markdown-rendered :not(.print) code,
+body :not(.print) code {
+  word-break: normal;
+  word-wrap: break-word;
+  white-space: pre;
+}
