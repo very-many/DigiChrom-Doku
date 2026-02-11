@@ -4,5 +4,5 @@
 ![[Pipeline Example.excalidraw]]
 
 
----
-[^1]: **Wichtig:** Dataflows können *reloaded* werden und *gepublished* werden. Beides ist unterchiedlich!! Mehr dazu unter [[Probleme]]
+
+[^1]: **Wichtig:** Dataflows können *reloaded* werden und *gepublished* werden. Beides ist unterchiedlich!! [[Probleme#Schema drift|Mehr dazu]]

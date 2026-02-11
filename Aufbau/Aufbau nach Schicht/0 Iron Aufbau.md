@@ -5,6 +5,6 @@ Aufgabe der Typischen [[0 Iron-Schicht|Iron-Schicht]] ist es:
 2. Tabellenblätter anhand IDs (Primär, Sekundär, ...) joinen
 
 *diese Schritte passieren in der Regel innerhalb einer [[Join Query v2|Query]]*
-# Beispiel
+## Beispiel
 Anhand von [[Betz-Chrom]]:
 ![[Pasted image 20260120160428.png]]

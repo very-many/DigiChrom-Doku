@@ -1,34 +1,56 @@
 ```mermaid
 flowchart TD
 
-    A[GetExcel] --> B[SheetNames]
+    A[Source aus GetExcel] --> B[SheetNames ermitteln]
+    B --> C[Liste idColumns]
 
-    A --> C[TransformTable per Sheet -> fnIPA]
+    %% TransformTable
+    subgraph S1[TransformTable pro Sheet]
+        direction TB
+        T1[fnIPA auf Sheet anwenden]
+        T2[colNames bestimmen]
+        T3[joinColOriginal wählen]
+        T4[SheetName trimmen]
+        T5[Spaltenpräfix anwenden]
+        T6[joinColRenamed berechnen]
+        T7[Record zurückgeben]
+        T1 --> T2 --> T3 --> T4 --> T5 --> T6 --> T7
+    end
 
-    C --> D[renamedTbl]
+    B --> D[Processed = TransformTable je Sheet]
 
-    D --> E[ijh]
+    D --> E[ExperimentTables filtern]
+    D --> F[SecondaryTables filtern]
 
-    E -- Ja --> F[ExperimentTables]
+    %% Join Experiment Tables
+    subgraph S2[Schritt 1: Experiment-ID Tabellen joinen]
+        direction TB
+        G1[Initial: leere Tabelle]
+        G2[List.Accumulate über ExperimentTables]
+        G3[Erstes Element übernimmt State]
+        G4[Vollständiger Outer Join]
+        G1 --> G2 --> G3 --> G4
+    end
 
-    E -- Nein, aber vorhanden --> G[SecondaryTables]
+    E --> G1
 
-    F --> H[List.Accumulate Full Outer Join nach JoinCol]
+    %% Join Secondary Tables
+    subgraph S3[Schritt 2: Sekundär-Tabellen joinen]
+        direction TB
+        I1[State = JoinedExperiment]
+        I2[List.Accumulate über SecondaryTables]
+        I3[targetCol über Text.Contains finden]
+        I4[Wenn gefunden: FullOuter Join]
+        I5[Sonst State beibehalten]
+        I1 --> I2 --> I3 --> I4 --> I5
+    end
 
-    H --> I[Zwischenergebnis]
+    G4 --> I1
 
-    G --> J[Für jedes Secondary: targetCol via Substring-Suche]
+    I5 --> J[FinalJoin erstellen]
 
-    J -->|gefunden| K[Full Outer Join (targetCol vs. JoinCol)]
-
-    J -->|nicht gefunden| I
-
-    K --> I
-
-    I --> L[ReplaceErrorValues -> null]
-
-    L --> M[fnConvertAllColumnsToText]
-
-    M --> N[Finale Tabelle]
+    J --> K[ReplaceErrorValues anwenden]
+    K --> L[Alle Spalten zu Text konvertieren]
+    L --> M[Finales Ergebnis]
 ```
 
