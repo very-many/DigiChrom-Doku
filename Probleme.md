@@ -12,14 +12,14 @@ Durch die Menschlichkeit der Partner, die **Mapping-Tabelle** und die stetige **
 Es ist auf dem Papier alles extra so angelegt und Programmiert dass es laufen sollte.
 Auch ist es geduldet dass es zu Schema drift kommt.
 
-***Problem ist:** Dataflows in Microsoft Fabric unterstützen keine Schemachanges on **Refresh[^2]***
+*Problem ist: Dataflows in Microsoft Fabric unterstützen keine Schemachanges on Refresh[^2]*
 
 ### Lösung
 Glaub mir, ich hab so viel versucht. Es ist nicht möglich das unter der Nutzung von Dataflows zu lösen. Wenn du es schaffst, sei glücklich.
 
-**Edgar meint:** Wir sollen das Problem einfach ignorieren und normal mit Dataflows weiter arbeiten.
+**Edgar meint:** Wir sollen das Problem *einfach ignorieren* und normal mit Dataflows weiter arbeiten.
 
-**Ich sage:** Verwende Python/Pyspark Notebooks. Bitte. Tuh dir das mit Dataflows nicht an. Damit funktioniert das Endziel einer Datafactory gescheit. Außerdem erleichterst du dich SEHR bei Erstellung und Verwendung von Funktionen, du hast Packages zur Verfügung, welche dinge nochmal mehr erleichtern, vor allem bei sowas wie das Umrechnen von Einheiten.
+**Ich sage:** Verwende *Python/Pyspark Notebooks*. Bitte. Tuh dir das mit Dataflows nicht an. Damit funktioniert das Endziel einer Datafactory gescheit. Außerdem erleichterst du dich SEHR bei Erstellung und Verwendung von Funktionen, du hast Packages zur Verfügung, welche dinge nochmal mehr erleichtern, vor allem bei sowas wie das Umrechnen von Einheiten.
 
 [^1]: **Reload** = Manuell Save & Run drücken im Dataflow
 [^2]: **Refresh** = Dataflow wird über [[Pipelines|Orchestrierung]] ausgelöst
