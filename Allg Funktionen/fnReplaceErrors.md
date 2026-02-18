@@ -12,4 +12,4 @@ in
 # Infos
 **Erklärung:** Ersetzt Error Zellen durch null Einträge.
 **Typische Verwendung:** Vor Export von unsicheren Tabellen
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[2 Silver-Schicht|Silver]]

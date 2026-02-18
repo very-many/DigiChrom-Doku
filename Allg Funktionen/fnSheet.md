@@ -29,4 +29,4 @@ in
 # Infos
 **Erklärung:** Öffnet Tabellenblatt einer Excel Tabelle. Existiert die erste in der Liste der Kandidaten nicht, so wird die nächste genommen. Existiert keine -> liefert eine Leere Tabelle
 **Typische Verwendung:** Bei jedem Öffnen eines Excel Tabellenblatts
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]

@@ -1,3 +1,6 @@
+>[!info]  
+> Not really in use at all
+
 ``` pq
 (table as table, rowIndices as list, columnNames as list, amount as number, direction as text) as table =>
 let
@@ -78,7 +81,7 @@ in
 	- (Spaltennamen + Zeilennamen zum ermitteln der zu kopierenden Zellen)
 - `amount` = Anzahl der zu kopierenden stellen
 - `direction` = Richtung in welche kopiert werden soll
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]
 # Beispiel
 
 **`Vorher = ...`**

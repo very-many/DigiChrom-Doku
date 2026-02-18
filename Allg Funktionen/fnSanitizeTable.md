@@ -4,7 +4,7 @@ let
     // Characters to replace and their replacements
     // Maybe add " " back
     OldChars = {"[", ",", ";", "{", "}", "(", ")", "=", "]"},
-    NewChars = {"<", "'", ":", "\", "/", "`", "´", "+", ">"},
+    NewChars = {"<", "'", ":", "$", "§", "`", "´", "+", ">"},
 
     // Decide which mapping to use based on Reverse flag
     Mapping = if Reverse = true then List.Zip({NewChars, OldChars}) else List.Zip({OldChars, NewChars}),
@@ -28,4 +28,4 @@ in
 # Infos
 **Erklärung:** Tauscht verbotene Zeichen im Header durch erlaubte aus oder andersherum.
 **Typische Verwendung:** Bei jedem Exportieren von Tabellen. Oft beim einlesen von Tabellen ausm Lakehouse.
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]/[[2 Silver-Schicht|Silver]]/[[3 Gold-Schicht|Gold]]
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]/[[2 Silver-Schicht|Silver]]/[[3 Gold-Schicht|Gold]] (On every load and save)

@@ -40,7 +40,7 @@ in
 # Infos
 **Erklärung:** Fixt Doppelte Einträge gegebener Spalten
 **Typische Verwendung:** Zum Promoten "unsicherer" Header (z.B. bei Headern von Partnern). Muss beim Renaming beachtet werden!
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]/([[2 Silver-Schicht|Silver]]) (Mapping Table bereinigen)
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]] (Mapping Table bereinigen)
 
 # Beispiel
 

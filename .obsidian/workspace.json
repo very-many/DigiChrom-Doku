@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b2a672ef05621d5",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "00_Archive/Bases/Iron Functions.base",
-                "viewName": "Iron Functions"
-              },
-              "icon": "lucide-table",
-              "title": "Iron Functions"
-            }
-          },
-          {
             "id": "c95a75a9ba6b867d",
             "type": "leaf",
             "state": {
@@ -36,22 +23,37 @@
             }
           },
           {
-            "id": "eed9c1b0a4cd6672",
+            "id": "cfae3b0a78bb8ed9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/Pipelines.md",
+                "file": "Wiki/Dataflows.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pipelines"
+              "title": "Dataflows"
+            }
+          },
+          {
+            "id": "f057094b68893556",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Queries/Join Query v2.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Join Query v2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probleme.md",
+                "file": "Queries/Join Query v2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +154,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Probleme"
+              "title": "Backlinks for Join Query v2"
             }
           },
           {
@@ -161,12 +163,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allg Funktionen/fnSanitizeTable.md",
+                "file": "Queries/Join Query v2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from fnSanitizeTable"
+              "title": "Outgoing links from Join Query v2"
             }
           },
           {
@@ -204,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allg Funktionen/fnSanitizeTable.md",
+                "file": "Queries/Join Query v2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fnSanitizeTable"
+              "title": "Outline of Join Query v2"
             }
           }
         ]
@@ -233,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 614.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,48 +250,48 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c95a75a9ba6b867d",
+  "active": "f057094b68893556",
   "lastOpenFiles": [
-    "Aufbau/Aufbau nach Partner/Betz-Chrom.md",
-    "Probleme.md",
-    "Wiki/Pipelines.md",
-    "00_Archive/Bases/Iron Functions.base",
-    "Wiki/Dataflows.md",
     "Wiki/Medallion Modell.md",
-    "Wiki/Microsoft Fabric.md",
-    "Wiki/Versionierung.md",
-    "Aufbau/Aufbau nach Schicht/0 Iron Aufbau.md",
-    "Wiki/Schichten/0 Iron-Schicht.md",
-    "Queries/Mapping v2.md",
-    "Partner Spezifischen Reinigungsschritte.md",
-    "README.md",
-    "Queries/Join Query v2.md",
+    "Wiki/Dataflows.md",
     "00_Archive/Excalidraw/Dataflow Aufbau.excalidraw.md",
+    "Wiki/Schichten/1 Bronze-Schicht.md",
+    "00_Archive/Bases/Functions.base",
+    "Allg Funktionen/fnTrimAllColumns.md",
+    "Allg Funktionen/fnSplitTableWithPrefix.md",
+    "Allg Funktionen/fnSheet.md",
+    "Allg Funktionen/fnSanitizeTable.md",
+    "Allg Funktionen/fnReplaceErrors.md",
+    "Allg Funktionen/fnReplaceEmptyCellsWithNull.md",
+    "Allg Funktionen/fnRemoveNullColumnsInFirstRow.md",
+    "Allg Funktionen/fnMergeRows.md",
+    "Allg Funktionen/fnFixDuplicateHeaders.md",
+    "Allg Funktionen/fnFixDuplicateEntries.md",
+    "Allg Funktionen/fnFillAmountInDirection.md",
+    "Allg Funktionen/fnExpandWithPrefix.md",
+    "Allg Funktionen/fnConvertAllColumnsToText.md",
+    "Allg Funktionen/fnAddUnitColumns.md",
+    "Probleme.md",
+    "Wiki/Schichten/0 Iron-Schicht.md",
+    "Iron Functions.base",
+    "00_Archive/Bases/Iron Functions.base",
+    "Aufbau/Aufbau nach Schicht/0 Iron Schicht.md",
+    "Aufbau/Aufbau nach Partner/Betz-Chrom.md",
+    "00_Archive/Excalidraw/Drawing 2026-02-18 09.32.03.excalidraw.md",
+    "Wiki/Pipelines.md",
+    "00_Archive/Excalidraw/Pipeline Example.excalidraw.md",
+    "Partner Spezifischen Reinigungsschritte.md",
+    "00_Archive/Attachments/Pasted image 20260120160428.png",
     "00_Archive/Attachments/Pasted Image 20260210110034_474.png",
     "00_Archive/Attachments/image-Photoroom.png",
-    "00_Archive/Attachments/Pasted image 20260120160428.png",
-    "00_Archive/Excalidraw/Pipeline Example.excalidraw.md",
-    "Allg Funktionen/fnMergeRows.md",
-    "Allg Funktionen/fnReplaceErrors.md",
-    "Allg Funktionen/fnSanitizeTable.md",
-    "Allg Funktionen/fnFixDuplicateHeaders.md",
-    "Allg Funktionen/fnRemoveNullColumnsInFirstRow.md",
-    "Wiki/Schichten/1 Bronze-Schicht.md",
-    "Wiki/Schichten/2 Silver-Schicht.md",
-    "Wiki/Schichten/3 Gold-Schicht.md",
-    "Allg Funktionen/fnExpandWithPrefix.md",
     "00_Archive/Attachments/Pasted Image 20260123153818_458.png",
     "00_Archive/Excalidraw/desktop.ini",
     "00_Archive/Excalidraw 1/desktop.ini",
-    "00_Archive/Excalidraw 1/Drawing 2026-01-23 13.24.56.excalidraw.md",
     "00_Archive/Excalidraw 1",
     "00_Archive/Excalidraw",
-    "Allg Funktionen/fnConvertAllColumnsToText.md",
     "00_Archive/Attachments/Pasted image 20260120160257.png",
     "00_Archive/Attachments",
     "Aufbau/Aufbau nach Schicht",
-    "Aufbau",
-    "Aufbau/Aufbau nach Partner",
-    "Allg Funktionen/Untitled"
+    "Aufbau"
   ]
 }

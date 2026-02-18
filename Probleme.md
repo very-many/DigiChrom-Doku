@@ -21,5 +21,8 @@ Glaub mir, ich hab so viel versucht. Es ist nicht möglich das unter der Nutzung
 
 **Ich sage:** Verwende *Python/Pyspark Notebooks*. Bitte. Tuh dir das mit Dataflows nicht an. Damit funktioniert das Endziel einer Datafactory gescheit. Außerdem erleichterst du dich SEHR bei Erstellung und Verwendung von Funktionen, du hast Packages zur Verfügung, welche dinge nochmal mehr erleichtern, vor allem bei sowas wie das Umrechnen von Einheiten.
 
+# Dataflows und Wiederverwendbarkeit
+[[Dataflows]] sind ja schön und gut. Aber zur Übersichtlichkeit, strukturieren und das [[Probleme#Schema drift|Schema drift]]-Problem muss ja alles 
+
 [^1]: **Reload** = Manuell Save & Run drücken im Dataflow
 [^2]: **Refresh** = Dataflow wird über [[Pipelines|Orchestrierung]] ausgelöst

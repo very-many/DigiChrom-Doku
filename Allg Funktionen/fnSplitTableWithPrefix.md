@@ -41,7 +41,7 @@ in
 # Infos
 **Erklärung:** Spaltet Input-Table in Above- und Below-Table
 **Typische Verwendung:** Spalten von Tabelle in Header- und Data-Part. Am besten dafür den Präfix der Experiment ID verwenden.
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]
 
 # Beispiel
 

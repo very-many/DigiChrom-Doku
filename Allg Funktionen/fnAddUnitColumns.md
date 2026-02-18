@@ -34,7 +34,7 @@ in
 
 # Infos
 **Erklärung:** Extrahiert Einheiten aus Header, indem es ausließt was zwischen "\[...]" steht.  
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]/([[2 Silver-Schicht|Silver]])
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]
 
 # Beispiel
 

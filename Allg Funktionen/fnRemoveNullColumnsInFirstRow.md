@@ -11,7 +11,7 @@ in
 # Infos
 **Erklärung:** Löscht alle Spalten, welche in der ersten Zeile "null" stehen haben
 **Typische Verwendung:** Vorm header promote, je nachdem
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]
 
 # Beispiel
 

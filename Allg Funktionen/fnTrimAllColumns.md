@@ -22,4 +22,4 @@ in
 # Infos
 **Erklärung:** Trimmt Header von ungewollten Zeichen (Vorne und hinten Löschen)
 **Typische Verwendung:** Vor Export von (oder zugriff auf) Tabellen mit unsicherem Header
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]/([[2 Silver-Schicht|Silver]])
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]

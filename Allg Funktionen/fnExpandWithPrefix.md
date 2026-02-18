@@ -1,5 +1,6 @@
 >[!warning] Depricated 
 > Wurde in [[Join Query v2]] ersetzt, da dort Join an sich überarbeitet wurde.
+> evtl. nur noch in BC-Charges verwendet
 
 ``` pq
 (inputTable as table, columnName as text, prefix as text) as table =>
@@ -34,4 +35,4 @@ in
 # Infos
 **Erklärung:** Nimmt Spalte vom typ `table` und "expanded" diese (klappt diese auf). Jede dabei neu entstandene Spalte erhält den als Parameter gelieferten Präfix.
 **Typische Verwendung:** Zum ausklappen nach Join.
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]

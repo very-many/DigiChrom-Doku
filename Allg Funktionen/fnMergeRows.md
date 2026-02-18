@@ -50,7 +50,7 @@ in
 
 # Infos
 **Erklärung:** Nimmt übergebene Zeilen und fasst diese in einer Zeile zusammen, indem die Inhalte mit "\_" getrennt hintereinander stehen
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]/([[2 Silver-Schicht|Silver]])
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]
 
 # Beispiel
 
