@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Queries/Join Query v2.md",
-                "mode": "preview",
+                "file": "Allg Funktionen/fnRemovePrefixedRows.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Join Query v2"
+              "title": "fnRemovePrefixedRows"
             }
           }
         ],
@@ -128,7 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 630.5
   },
   "right": {
     "id": "4fea84f7e9c07770",
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Queries/Join Query v2.md",
+                "file": "Allg Funktionen/fnRemovePrefixedRows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Join Query v2"
+              "title": "Backlinks for fnRemovePrefixedRows"
             }
           },
           {
@@ -235,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 614.5
+    "width": 364.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,46 +252,45 @@
   },
   "active": "f057094b68893556",
   "lastOpenFiles": [
+    "00_Archive/Bases/0 Iron Functions.base",
+    "Allg Funktionen/fnRemovePrefixedRows.md",
+    "00_Archive/Bases/1 Bronze Functions.base",
+    "00_Archive/Bases/2 Silver Functions.base",
+    "00_Archive/Bases/3 Gold Functions.base",
+    "00_Archive/Bases/Cleaning Functions.base",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/Partner-Spezifischen Reinigungsschritte.md",
+    "00_Archive/ObsidianTemplates/Schichten.md",
+    "Allg Funktionen/fnSanitizeTable.md",
+    "Wiki/Schichten/2 Silver-Schicht.md",
+    "Wiki/Schichten/3 Gold-Schicht.md",
+    "Wiki/Schichten/1 Bronze-Schicht.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnHG.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnHSAA.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnBC.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnIPA.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnTUI.md",
+    "Allg Funktionen/fnConvertAllColumnsToText.md",
+    "Allg Funktionen/fnAddUnitColumns.md",
+    "Aufbau/Aufbau nach Partner/Betz-Chrom.md",
+    "00_Archive/ObsidianTemplates/Functions.md",
+    "00_Archive/Bases/Untitled.base",
+    "Wiki/Schichten/0 Iron-Schicht.md",
+    "Allg Funktionen/fnTrimAllColumns.md",
+    "Allg Funktionen/fnMergeRows.md",
+    "Allg Funktionen/fnRemoveNullColumnsInFirstRow.md",
+    "Queries/Join Query v2.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte",
+    "Queries/Mapping v2.md",
     "Wiki/Medallion Modell.md",
     "Wiki/Dataflows.md",
     "00_Archive/Excalidraw/Dataflow Aufbau.excalidraw.md",
-    "Wiki/Schichten/1 Bronze-Schicht.md",
-    "00_Archive/Bases/Functions.base",
-    "Allg Funktionen/fnTrimAllColumns.md",
-    "Allg Funktionen/fnSplitTableWithPrefix.md",
-    "Allg Funktionen/fnSheet.md",
-    "Allg Funktionen/fnSanitizeTable.md",
-    "Allg Funktionen/fnReplaceErrors.md",
-    "Allg Funktionen/fnReplaceEmptyCellsWithNull.md",
-    "Allg Funktionen/fnRemoveNullColumnsInFirstRow.md",
-    "Allg Funktionen/fnMergeRows.md",
-    "Allg Funktionen/fnFixDuplicateHeaders.md",
-    "Allg Funktionen/fnFixDuplicateEntries.md",
-    "Allg Funktionen/fnFillAmountInDirection.md",
-    "Allg Funktionen/fnExpandWithPrefix.md",
-    "Allg Funktionen/fnConvertAllColumnsToText.md",
-    "Allg Funktionen/fnAddUnitColumns.md",
-    "Probleme.md",
-    "Wiki/Schichten/0 Iron-Schicht.md",
     "Iron Functions.base",
     "00_Archive/Bases/Iron Functions.base",
-    "Aufbau/Aufbau nach Schicht/0 Iron Schicht.md",
-    "Aufbau/Aufbau nach Partner/Betz-Chrom.md",
-    "00_Archive/Excalidraw/Drawing 2026-02-18 09.32.03.excalidraw.md",
-    "Wiki/Pipelines.md",
-    "00_Archive/Excalidraw/Pipeline Example.excalidraw.md",
-    "Partner Spezifischen Reinigungsschritte.md",
     "00_Archive/Attachments/Pasted image 20260120160428.png",
     "00_Archive/Attachments/Pasted Image 20260210110034_474.png",
     "00_Archive/Attachments/image-Photoroom.png",
     "00_Archive/Attachments/Pasted Image 20260123153818_458.png",
     "00_Archive/Excalidraw/desktop.ini",
-    "00_Archive/Excalidraw 1/desktop.ini",
-    "00_Archive/Excalidraw 1",
-    "00_Archive/Excalidraw",
-    "00_Archive/Attachments/Pasted image 20260120160257.png",
-    "00_Archive/Attachments",
-    "Aufbau/Aufbau nach Schicht",
-    "Aufbau"
+    "00_Archive/Attachments/Pasted image 20260120160257.png"
   ]
 }

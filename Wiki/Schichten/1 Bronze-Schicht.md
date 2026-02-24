@@ -8,8 +8,4 @@ Ziel der **Bronze-Schicht** ist es Dateien zu Mergen und zu **vereinheitlichen**
 - Sanitize names
 
 # Funktionen
-
->[!important] Important 
-> Dont forget to switch the table to the right right layer
-
-![[Functions.base]]
+![[1 Bronze Functions.base]]

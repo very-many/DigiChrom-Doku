@@ -5,19 +5,13 @@ properties:
     displayName: Häufige Funktionen dieser Schicht
 views:
   - type: table
-    name: Iron Functions
+    name: Cleaning Functions
     filters:
       and:
         - file.hasLink("Wiki/Schichten/0 Iron-Schicht")
         - file.name.startsWith("fn")
+        - file.inFolder("Allg Funktionen/Partner Spezifische Reinigungsschritte")
     order:
       - file.name
     sort: []
     indentProperties: false
-  - type: table
-    name: Bronze Functions
-    filters:
-      and:
-        - file.hasLink("Wiki/Schichten/1 Bronze-Schicht")
-        - file.name.startsWith("fn")
-    sort: []

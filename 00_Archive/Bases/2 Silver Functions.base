@@ -1,0 +1,13 @@
+formulas:
+  Untitled: ""
+properties:
+  file.name:
+    displayName: Häufige Funktionen dieser Schicht
+views:
+  - type: table
+    name: Silver Functions
+    filters:
+      and:
+        - file.hasLink("Wiki/Schichten/2 Silver-Schicht")
+        - file.name.startsWith("fn")
+    sort: []
