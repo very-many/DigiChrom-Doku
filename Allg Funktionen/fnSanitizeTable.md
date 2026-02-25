@@ -28,4 +28,4 @@ in
 # Infos
 **Erklärung:** Tauscht verbotene Zeichen im Header durch erlaubte aus oder andersherum.
 **Typische Verwendung:** Bei jedem Exportieren von Tabellen. Oft beim einlesen von Tabellen ausm Lakehouse.
-**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]/[[2 Silver-Schicht|Silver]]/[[3 Gold-Schicht|Gold]] (On every load and save)
+**Hauptanwendung:** [[0 Iron-Schicht|Iron]]/[[1 Bronze-Schicht|Bronze]]/[[2 Silver-Schicht|Silver]]/[[3 Gold-Schicht|Gold]] (On every load and save from Lakehouse)

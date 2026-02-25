@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allg Funktionen/fnFillAmountInDirection.md",
+                "file": "Allg Funktionen/fnFillRight.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "fnFillAmountInDirection"
+              "title": "fnFillRight"
             }
           }
         ],
@@ -144,6 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Allg Funktionen/fnFillRight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +154,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for fnFillRight"
             }
           },
           {
@@ -162,12 +163,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allg Funktionen/fnFillAmountInDirection.md",
+                "file": "Allg Funktionen/fnFillRight.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from fnFillAmountInDirection"
+              "title": "Outgoing links from fnFillRight"
             }
           },
           {
@@ -214,8 +215,7 @@
               "title": "Outline of Join Query v2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "54003446e1fe30c8",
@@ -235,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 732.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,8 +252,14 @@
   },
   "active": "f057094b68893556",
   "lastOpenFiles": [
-    "Allg Funktionen/fnExpandWithPrefix.md",
+    "Allg Funktionen/fnNormalizeUnit.md",
+    "Allg Funktionen/fnFillRight.md",
+    "Queries/Mapping v2.md",
+    "Queries/Join Query v2.md",
+    "Allg Funktionen/fnSanitizeTable.md",
+    "fnFilter.md",
     "Allg Funktionen/fnFillAmountInDirection.md",
+    "Allg Funktionen/fnExpandWithPrefix.md",
     "Allg Funktionen/fnFilterSheets.md",
     "Allg Funktionen/fnFixDuplicateEntries.md",
     "Allg Funktionen/fnFixDuplicateHeaders.md",
@@ -266,18 +272,12 @@
     "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnCCT.md",
     "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnHG.md",
     "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnBC.md",
-    "Queries/Join Query v2.md",
     "Wiki/Schichten/0 Iron-Schicht.md",
     "Wiki/Medallion Modell.md",
     "Wiki/Dataflows.md",
     "Allg Funktionen/fnRemoveXColumnsInFirstRow.md",
     "Allg Funktionen/XXfnCombineQueries.md",
     "Allg Funktionen/XXfnGroupTransform.md",
-    "Allg Funktionen/XXfnAddMissing.md",
-    "Allg Funktionen/fnSanitizeTable.md",
-    "Wiki/Schichten/1 Bronze-Schicht.md",
-    "Wiki/Pipelines.md",
-    "Allg Funktionen/fnAddUnitColumns.md",
     "00_Archive/Bases/0 Iron Functions.base",
     "00_Archive/Bases/1 Bronze Functions.base",
     "00_Archive/Bases/2 Silver Functions.base",

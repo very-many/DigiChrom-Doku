@@ -71,10 +71,23 @@ in
 ```
 
 # Erklärung
-Die **Join Query v2** lädt jedes Tabellenblatt (welches nicht auf der liste in [[fnFilter]])
+Die **Join Query v2**:
+1. Lädt jedes Tabellenblatt (welches nicht auf der liste in [[fnFilterSheets]])
+2. Reinigt jedes geladene Tabellenblatt jeweils mit dem [[Partner-Spezifischen Reinigungsschritte|Partner-Spezifischen Reinigungsschritt]]
+3. Schreibt den Namen jedes Tabellenblatts vor die Werte des jeweiligen Tabellenblatts. Speichert sich dabei, welches der Werte ID/Schlüsselwerte sind *(Die Namen der Spalten, welche ID/Schlüsselwerte halten, müssen in der `idColumns` Liste angegeben werden)*
+4. Joint alle geladenen und bereinigten Tabellenblätter, welche aus der Liste `idColumns` den ersten Wert (primärer Schlüssel/ID) als Schlüssel enthält
+5. Joint auf die bereits aus dem vorherigen Schritt gejointe Primärschlüsseltabelle alle Tabellen, welche nicht Primärschlüssen, sondern nur Sekundärschlüssel enthalten
+6. Ersetzt alle Zellen mit Errors durch null ([[fnReplaceErrors]])
+7. Konvertiert alle Spaltentypen zu Text ([[fnConvertAllColumnsToText]])
+8. Tauscht verbotene Zeichen im Header durch erlaubte aus ([[fnSanitizeTable]])
 
+## Usage
+Query kann genau so für jede Datei einer Standard [[0 Iron-Schicht|Iron Schicht]] verwendet werden.
+Angepasst werden muss:
+- **SheetNames bzw. [[fnFilterSheets]]:** ggf. mehr oder weniger Wörter in den Namen der Tabellenblätter filtern
+- **idColumns:** an den Partner anpassen, dabei darauf achten, dass die Primäre ID bzw. der Primärschlüssel (meistens die Experiment-ID) an erster stelle stehen muss, jede weitere ID, mit welcher im nachhinein gejoined werden muss, muss dahinter geschrieben werden.
 
-# Mermaid Diagramm
+## Mermaid Diagramm
 Die Query ist ein wenig komplex, darum hier eine Darstellung als Mermaid Diagramm:
 ```mermaid
 flowchart TD
