@@ -1,7 +1,7 @@
 Die **Iron-Schicht** ist eine reine **Reninigungsschicht**.
 Ziel ist es aus jeder Datei der Partner eine bereinigte Tabelle zu kreieren.
 ### Schritte der Iron-Schicht
-- Rohdaten aus ADLS laden
+- Rohdaten aus ADLS (Blobstorage) laden
 - Rohdaten bereinigen
 	- Partnerspezifische Reinigungsfunktion
 - Getrennte Daten (über Tabellenblätter) Joinen
@@ -17,7 +17,7 @@ Aufgabe der Typischen [[0 Iron-Schicht|Iron-Schicht]] ist es:
 Anhand von [[Betz-Chrom]]:
 ![[Pasted image 20260120160428.png]]
 
-
+Die Query, welche hier BC heißt, ist die [[Join Query v2|Join Query]] 
 
 
 

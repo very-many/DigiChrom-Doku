@@ -70,8 +70,11 @@ in
     Sanitize
 ```
 
+# Verwendung
+
+
 # Mermaid Diagramm
-Die Query ist ein wenig komplex (und sicher nicht komplett effizient oder so), also hab ich es mal so als Mermaid dargestellt.
+Die Query ist ein wenig komplex, darum hier eine Darstellung als Mermaid Diagramm:
 ```mermaid
 flowchart TD
 
@@ -127,3 +130,4 @@ flowchart TD
     K --> L[Alle Spalten zu Text konvertieren]
     L --> M[Finales Ergebnis]
 ```
+

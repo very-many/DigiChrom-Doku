@@ -4,7 +4,7 @@ let
     // Characters to replace and their replacements
     // Maybe add " " back
     OldChars = {"[", ",", ";", "{", "}", "(", ")", "=", "]"},
-    NewChars = {"<", "'", ":", "$", "§", "`", "´", "+", ">"},
+    NewChars = {"<", "'", "£", "$", "§", "`", "´", "+", ">"},
 
     // Decide which mapping to use based on Reverse flag
     Mapping = if Reverse = true then List.Zip({NewChars, OldChars}) else List.Zip({OldChars, NewChars}),
