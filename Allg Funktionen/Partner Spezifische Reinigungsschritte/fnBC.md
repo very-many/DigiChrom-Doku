@@ -35,7 +35,7 @@ in
 
 # Infos
 ****Erklärung:** Spaltet die Tabelle in *Header* und *Data* und führt verschiedene Schritte getrennt aus um *Header* zu finden und gesondert/Besser zu behandeln.
-**Typische Verwendung:** Reinigung jedes Tabellenblatts von IPA
+**Typische Verwendung:** Reinigung jedes Tabellenblatts von BC
 **Hauptanwendung:** [[0 Iron-Schicht|Iron]]
 
 

@@ -1,12 +1,9 @@
->[!info]
-> **fnHSAA** ist der "Standard" an Reinigungsfunktionen uns sollte als Referenz für andere genommen werden
-
 ``` pq
 (source as table, sheetNames as list, idColumns as list) =>
 let
     Sheet = fnSheet(source, sheetNames),
     Trim = fnTrimAllColumns(Sheet),
-	ReplaceEmpty = fnReplaceEmptyCellsWithNull(Trim),
+    ReplaceEmpty = fnReplaceEmptyCellsWithNull(Trim),
 
     Split = fnSplitTableWithPrefix(ReplaceEmpty, "0", {0, 4}),
     HeaderTableFillDown = Table.FillDown(Split{0}, Table.ColumnNames(Split{0})),
@@ -34,5 +31,5 @@ in
 
 # Infos
 **Erklärung:** Spaltet die Tabelle in *Header* und *Data* und führt verschiedene Schritte getrennt aus um *Header* zu finden gesondert/Besser zu behandeln.
-**Typische Verwendung:** Reinigung jedes Tabellenblatts der HSAA
+**Typische Verwendung:** Reinigung jedes Tabellenblatts von CCT/IPT
 **Hauptanwendung:** [[0 Iron-Schicht|Iron]]

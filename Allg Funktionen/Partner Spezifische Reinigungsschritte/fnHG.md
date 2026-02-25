@@ -30,5 +30,5 @@ in
 
 # Infos
 **Erklärung:** Spaltet die Tabelle in *Header* und *Data* und führt verschiedene Schritte getrennt aus um *Header* zu finden gesondert/Besser zu behandeln.
-**Typische Verwendung:** Reinigung jedes Tabellenblatts der HSAA
+**Typische Verwendung:** Reinigung jedes Tabellenblatts von HG
 **Hauptanwendung:** [[0 Iron-Schicht|Iron]]

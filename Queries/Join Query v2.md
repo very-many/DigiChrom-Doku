@@ -70,7 +70,8 @@ in
     Sanitize
 ```
 
-# Verwendung
+# Erklärung
+Die **Join Query v2** lädt jedes Tabellenblatt (welches nicht auf der liste in [[fnFilter]])
 
 
 # Mermaid Diagramm

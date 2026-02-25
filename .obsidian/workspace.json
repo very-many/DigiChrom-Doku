@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Queries/Join Query v2.md",
+                "file": "Allg Funktionen/fnFillAmountInDirection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Join Query v2"
+              "title": "fnFillAmountInDirection"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Queries/Join Query v2.md",
+                "file": "Allg Funktionen/fnFillAmountInDirection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Join Query v2"
+              "title": "Outgoing links from fnFillAmountInDirection"
             }
           },
           {
@@ -235,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 306.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,6 +252,21 @@
   },
   "active": "f057094b68893556",
   "lastOpenFiles": [
+    "Allg Funktionen/fnExpandWithPrefix.md",
+    "Allg Funktionen/fnFillAmountInDirection.md",
+    "Allg Funktionen/fnFilterSheets.md",
+    "Allg Funktionen/fnFixDuplicateEntries.md",
+    "Allg Funktionen/fnFixDuplicateHeaders.md",
+    "Allg Funktionen/fnMergeRows.md",
+    "Allg Funktionen/fnSheet.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/Partner-Spezifischen Reinigungsschritte.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnHSAA.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnIPA.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnTUI.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnCCT.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnHG.md",
+    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnBC.md",
+    "Queries/Join Query v2.md",
     "Wiki/Schichten/0 Iron-Schicht.md",
     "Wiki/Medallion Modell.md",
     "Wiki/Dataflows.md",
@@ -263,26 +278,11 @@
     "Wiki/Schichten/1 Bronze-Schicht.md",
     "Wiki/Pipelines.md",
     "Allg Funktionen/fnAddUnitColumns.md",
-    "Probleme.md",
-    "README.md",
-    "Wiki/Versionierung.md",
-    "Wiki/Microsoft Fabric.md",
-    "Allg Funktionen/fnRemovePrefixedRows.md",
     "00_Archive/Bases/0 Iron Functions.base",
     "00_Archive/Bases/1 Bronze Functions.base",
     "00_Archive/Bases/2 Silver Functions.base",
     "00_Archive/Bases/3 Gold Functions.base",
     "00_Archive/Bases/Cleaning Functions.base",
-    "Allg Funktionen/Partner Spezifische Reinigungsschritte/Partner-Spezifischen Reinigungsschritte.md",
-    "00_Archive/ObsidianTemplates/Schichten.md",
-    "Wiki/Schichten/2 Silver-Schicht.md",
-    "Wiki/Schichten/3 Gold-Schicht.md",
-    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnHG.md",
-    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnHSAA.md",
-    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnBC.md",
-    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnIPA.md",
-    "Allg Funktionen/Partner Spezifische Reinigungsschritte/fnTUI.md",
-    "Allg Funktionen/fnConvertAllColumnsToText.md",
     "00_Archive/Bases/Untitled.base",
     "Allg Funktionen/Partner Spezifische Reinigungsschritte",
     "Iron Functions.base",
