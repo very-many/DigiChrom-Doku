@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allg Funktionen/fnFillRight.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "fnFillRight"
+              "title": "README"
             }
           }
         ],
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allg Funktionen/fnFillRight.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for fnFillRight"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -163,12 +163,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allg Funktionen/fnFillRight.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from fnFillRight"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -252,8 +252,9 @@
   },
   "active": "f057094b68893556",
   "lastOpenFiles": [
-    "Allg Funktionen/fnNormalizeUnit.md",
+    "Aufbau/Aufbau nach Partner/Betz-Chrom.md",
     "Allg Funktionen/fnFillRight.md",
+    "Allg Funktionen/fnNormalizeUnit.md",
     "Queries/Mapping v2.md",
     "Queries/Join Query v2.md",
     "Allg Funktionen/fnSanitizeTable.md",
@@ -277,7 +278,6 @@
     "Wiki/Dataflows.md",
     "Allg Funktionen/fnRemoveXColumnsInFirstRow.md",
     "Allg Funktionen/XXfnCombineQueries.md",
-    "Allg Funktionen/XXfnGroupTransform.md",
     "00_Archive/Bases/0 Iron Functions.base",
     "00_Archive/Bases/1 Bronze Functions.base",
     "00_Archive/Bases/2 Silver Functions.base",

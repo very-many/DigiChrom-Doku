@@ -1,4 +1,4 @@
-# Aufbau
+6# Aufbau
 Betz-Chrom schickt bisher 3 Arten von Excel Dateien.
 - Eingangsgrößen
 - Ausgangsgrößen
