@@ -4,14 +4,14 @@ Dokumentation für das **DigiChrom**-Projekt – eine Datenpipeline auf Basis vo
 
 ## Inhalt
 
-| Ordner / Datei | Beschreibung |
-|---|---|
-| **Wiki/** | Zentrale Architekturdokumentation (Medallion-Modell, Dataflows, Pipelines, Schichten, Versionierung) |
-| **Allg Funktionen/** | Wiederverwendbare Funktionen (`fn*`) für Datenbereinigung und -transformation |
-| **Aufbau/** | Partnerspezifische Aufbau-Dokumentation |
-| **Queries/** | Beispiel-Queries (Joins, Mappings) |
-| **00_Archive/** | Archivierte Vorlagen und Diagramme |
-| **Probleme.md** | Bekannte Probleme (z. B. Schema Drift, Dataflow-Einschränkungen) |
+| Ordner / Datei       | Beschreibung                                                                                         |
+| -------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Wiki/**            | Zentrale Architekturdokumentation (Medallion-Modell, Dataflows, Pipelines, Schichten, Versionierung) |
+| **Allg Funktionen/** | Wiederverwendbare Funktionen (`fn*`) für Datenbereinigung und -transformation                        |
+| **Aufbau/**          | Partnerspezifische Aufbau-Dokumentation                                                              |
+| **Queries/**         | Beispiel-Queries (Joins, Mappings)                                                                   |
+| **00_Archive/**      | Archivierte Vorlagen und Diagramme                                                                   |
+
 
 ## In Obsidian öffnen
 

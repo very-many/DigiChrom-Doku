@@ -1,1 +1,232 @@
-{}
+{
+  "Wiki/Pipelines.md": {
+    "a33bf46bd9e5b4d0bf7fe8d72108265c": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "bf5a64e6645ec05b52f903c1b632ef2b": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "86ae0260c0daa2d9ba0cb0fc7302dc05": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6cf3e03f960dca6714d77c747224409a": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Aufbau/Aufbau nach Partner/Betz-Chrom.md": {
+    "ba4e72d4f95482350b8aa70ad7846c48": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a03f09a478d39eaab9f90fc36013ce7a": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dc8a1b88c3fce745703f6ed1c69570ce": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5360be37a1d8eb71d409a54be5ed4848": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dc63e2ce3e30eb097299378f154ff584": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "034e1e40c1e71a43673482d2a93f8932": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "70e644e26f6c42134c48cce2dc507d75": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Wiki/Schichten/1 Bronze-Schicht.md": {
+    "acd47d56a2795054b34d772573db14c8": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Wiki/Schichten/2 Silver-Schicht.md": {
+    "7f92373ebfafa412f83b827dfcf29091": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5e4e0e03e99452394f8d54210d6184d1": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Wiki/Schichten/3 Gold-Schicht.md": {
+    "1199b044a6a29dde17990676f1e6f062": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Aufbau/Aufbau nach Partner/IPA.md": {
+    "983e99184bf5997a92c5c651253771db": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4171f314954faf28149be615e1d435fd": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c3c24fdd2fbb4bec9ce11f5623fae337": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "68bb61fe866ddcd1332eb1cacad98b65": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Aufbau/Aufbau nach Partner/CCT.md": {
+    "95121679fa6ae7c00875ed31520ca3bd": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "153f057df095c4361262edb7313fb360": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "382e087f72f71807089cfec28e4e8a1f": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8055e6075630cdb545773b248caea696": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Aufbau/Aufbau nach Partner/TUI.md": {
+    "e7869ffced78d0e9705a3f9dba5d1abc": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d21dc7ce2088b1dcb49523d6e34fa766": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "65995b1a24a9963d60297ea34ecf8ef0": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "759c72343c1d26d03345ca1ca229ae57": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Aufbau/Aufbau nach Partner/HSAA.md": {
+    "6786601e1644fd05f5bfb62872f99abf": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9129fd5d3069d8d97de0b0b5c433c90d": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "72eb984210533e963a7f5b7599c7c1d5": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9db7af8e94727648dc7dcf73c26fe8cc": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Aufbau/Aufbau nach Partner/HG.md": {
+    "3fe8c8bd967dfd414fece682472bd0eb": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "828095a816d742db6c481524af4b0fe8": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4786c4c0ef7a481315b64006293374a1": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1115e2f9806cdca98d4e3daac33d0025": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  }
+}

@@ -81,13 +81,13 @@ Die **Join Query v2**:
 7. Konvertiert alle Spaltentypen zu Text ([[fnConvertAllColumnsToText]])
 8. Tauscht verbotene Zeichen im Header durch erlaubte aus ([[fnSanitizeTable]])
 
-## Usage
+# Usage
 Query kann genau so für jede Datei einer Standard [[0 Iron-Schicht|Iron Schicht]] verwendet werden.
 Angepasst werden muss:
 - **SheetNames bzw. [[fnFilterSheets]]:** ggf. mehr oder weniger Wörter in den Namen der Tabellenblätter filtern
 - **idColumns:** an den Partner anpassen, dabei darauf achten, dass die Primäre ID bzw. der Primärschlüssel (meistens die Experiment-ID) an erster stelle stehen muss, jede weitere ID, mit welcher im nachhinein gejoined werden muss, muss dahinter geschrieben werden.
 
-## Mermaid Diagramm
+# Mermaid Diagramm
 Die Query ist ein wenig komplex, darum hier eine Darstellung als Mermaid Diagramm:
 ```mermaid
 flowchart TD
